@@ -1,7 +1,18 @@
 #include <WiFi.h>
 #include <WiFiUdp.h>
 #include <math.h>
+
+
 #include "secrets.h"
+"""
+#ifndef SECRETS_H
+#define SECRETS_H
+
+const char* networkName = "";
+const char* networkPswd = "";
+
+#endif
+"""
 
 // UDPデータを送信するためのIPアドレス：
 // サーバーのIPアドレスを使用するか、
