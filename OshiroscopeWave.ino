@@ -1,10 +1,7 @@
 #include <WiFi.h>
 #include <WiFiUdp.h>
 #include <math.h>
-
-// WiFiネットワーク名とパスワード：
-const char* networkName = "hpcgap05";
-const char* networkPswd = "hokuriku-pc.ac.jp";
+#include "secrets.h"
 
 // UDPデータを送信するためのIPアドレス：
 // サーバーのIPアドレスを使用するか、
